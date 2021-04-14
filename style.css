@@ -1,0 +1,186 @@
+
+body {
+  margin: 0;
+  background-color: rgb(17, 16, 15)
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.slogan {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: "Raleway", sans-serif;
+}
+
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .slogan {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+footer {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 10px;
+  color:#fff ;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color:#fff ;
+}
+
+p {
+ font-family: "Raleway", sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+ color:#fff ;
+}  
+
+ol,li {
+  font-family: "Raleway", sans-serif;
+  color:#fff ;
+}
+form {
+  color: rgb(255, 255, 255);
+}
+
+main a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+a:link    { color: rgb(212, 115, 115);  }
+a:visited { color: rgb(73, 39, 71); }
+a:hover   { color: rgb(255, 255, 255);  }
+a:active  { color: rgb(54, 45, 53); }
+
+
+
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+main img {
+  width: 100%;
+}
+
+img.round {
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+form {
+  font-family: "Raleway", sans-serif;
+  padding-right: 8px;
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+
+
+
+
+
